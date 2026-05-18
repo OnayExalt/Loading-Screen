@@ -17,7 +17,7 @@ body {
   }
   
   .logo {
-    width: 150px; /* Sesuaikan dengan ukuran logo Anda */
+    width: 200px; /* Sesuaikan dengan ukuran logo Anda */
     height: auto;
     animation: zoomInAndFade 8s forwards;
   }

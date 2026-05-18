@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="8;url=https://forms.gle/oKBjHuM2ENVAChdi8"> <!-- Redirect ke halaman utama setelah 5 detik -->
+  <title>HumanError</title>
+  <meta name="description" content=""><link rel="https://onayexalt.github.io/Loading-Screen/HF ICON.png" type="image/png" sizes="16x16">
+  <link rel="icon" href="https://onayexalt.github.io/Loading-Screen/HF ICON.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="https://onayexalt.github.io/Loading-Screen/HF ICON.png" sizes="180x180">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="loading-screen">
+    <img src="https://onayexalt.github.io/Loading-Screen/HF1.gif" alt="Logo" class="logo">
+  </div>
+  <script>
+    document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+    });
+    </script>
+    
+    <script>
+        document.addEventListener('keydown', function(event) {
+            // Cek apakah tombol yang ditekan adalah Ctrl (atau Command di macOS) dan S
+            if ((event.ctrlKey || event.metaKey) && event.keyCode === 83) {
+                // Mencegah default behavior dari "Ctrl + S"
+                event.preventDefault();
+                // Tambahkan pesan atau tindakan tambahan di sini jika diperlukan
+                alert("Penyimpanan halaman dinonaktifkan.");
+            }
+        });
+        </script>
+</body>
+</html>
